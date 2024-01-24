@@ -1,0 +1,11 @@
+#finite_basis_spacing:	30
+task = GeometryOptimisation
+fix_occupancy:	false
+max_scf_cycles:	360
+XC_FUNCTIONAL: RPBE
+MIXING_SCHEME : Pulay
+NEXTRA_BANDS : 112
+Cut_Off_Energy: 900
+GEOM_preconditioner : EXP
+opt_strategy : speed
+ELEC_ENERGY_TOL: 1e-06
