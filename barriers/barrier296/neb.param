@@ -1,0 +1,20 @@
+task          	   : TransitionStateSearch
+opt_strategy  	   : speed
+max_scf_cycles:	360
+XC_FUNCTIONAL: RPBE
+MIXING_SCHEME : Pulay
+NEXTRA_BANDS : 112
+Cut_Off_Energy: 900
+mix_history_length : 32
+mix_cut_off_energy : 500 eV
+elec_energy_tol    : 0.5e-6 eV
+tssearch_method    : neb
+tssearch_max_path_points: 5
+tssearch_neb_method : ode12r
+tssearch_neb_max_iter : 20
+tssearch_energy_tol : 0.22e-4 eV
+rand_seed          : 5758057
+iprint             : 2
+num_farms : 5
+CALCULATE_STRESS : TRUE
+

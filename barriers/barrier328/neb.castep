@@ -1,0 +1,191 @@
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Welcome to Academic Release CASTEP version 22.11|
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ | T. Green, I. J. Bush, C. J. Armstrong,          |
+ | E. J. Higgins, E. L. Brown, M. S. McFly,        |
+ | J. Wilkins, B-C. Shih, P. J. P. Byrne,          |
+ | R. J. Maurer, J. C. Womack, J. Dziedzic,        |
+ | A. Bartok-Partay, L. LeBlanc, T. K. Stenczel,   |
+ | J. Kermode, S. Sturniolo, B. Shi, B. Durham     |
+ | M. Evans, M. J. Smith                           |
+ |                                                 |
+ | Copyright (c) 2000 - 2021                       |
+ |                                                 |
+ |     Distributed under license from Cambridge    |
+ |     Enterprise for academic use only.           |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ |              http://www.castep.org              |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ 
+ Compiled for linux_x86_64_ifort on Wed, 18 Jan 2023 15:42:19 +0000
+ from code version b807d1bba+  Castep221_branch  Wed Sep 14 11:18:35 2022 +0100
+ Compiler: Intel Fortran 19.0.5.281; Optimisation: fast
+ MATHLIBS: Intel MKL(2019.0.5) (LAPACK version 3.7.0)
+ FFT Lib : mkl
+ Fundamental constants values: CODATA 2014
+ 
+ Run started: Thu, 27 Apr 2023 15:00:51 +0100
+
+ ******************************* User Parameters *******************************
+iprint                : 2                     # verbosity control (I)
+task                  : TransitionStateSearch # type of calculation (S)
+randseed              : 5758057               # seed for random numbers (I)
+optstrategy           : speed                 # optimization strategy (S)
+numfarms              : 5                     # number of task farms (I)
+xcfunctional          : RPBE                  # exchange-correlation functional (S)
+cutoffenergy          : 900.0000000 ev        # maximum energy of planewaves in basis set (P)
+nextrabands           : 112                   # number of extra bands (I)
+elecenergytol         : 0.0000005 eV          # total energy per atom convergence tolerance (P)
+maxscfcycles          : 360                   # maximum SCF cycles (I)
+mixingscheme          : Pulay                 # density mixing scheme (S)
+mixhistorylength      : 32                    # number of densities in mixing scheme (I)
+mixcutoffenergy       : 500.0000000 eV        # density mixing cut off energy (P)
+tssearchmethod        : neb                   # TS search method (S)
+tssearchmaxpathpoints : 5                     # max number of path points in NEB search (I)
+tssearchenergytol     : 0.0000220 eV          # energy convergence tolerance in NEB search (P)
+tssearchnebmethod     : ode12r                # optimization method in NEB search (S)
+tssearchnebmaxiter    : 20                    # max steps in NEB search (I)
+
+ *******************************************************************************
+  
+Initialisation time =     33.85 s
+Calculation time    =  28492.69 s
+Finalisation time   =      6.97 s
+Total time          =  28533.51 s
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Welcome to Academic Release CASTEP version 22.11|
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ | T. Green, I. J. Bush, C. J. Armstrong,          |
+ | E. J. Higgins, E. L. Brown, M. S. McFly,        |
+ | J. Wilkins, B-C. Shih, P. J. P. Byrne,          |
+ | R. J. Maurer, J. C. Womack, J. Dziedzic,        |
+ | A. Bartok-Partay, L. LeBlanc, T. K. Stenczel,   |
+ | J. Kermode, S. Sturniolo, B. Shi, B. Durham     |
+ | M. Evans, M. J. Smith                           |
+ |                                                 |
+ | Copyright (c) 2000 - 2021                       |
+ |                                                 |
+ |     Distributed under license from Cambridge    |
+ |     Enterprise for academic use only.           |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ |              http://www.castep.org              |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ 
+ Compiled for linux_x86_64_ifort on Wed, 18 Jan 2023 15:42:19 +0000
+ from code version b807d1bba+  Castep221_branch  Wed Sep 14 11:18:35 2022 +0100
+ Compiler: Intel Fortran 19.0.5.281; Optimisation: fast
+ MATHLIBS: Intel MKL(2019.0.5) (LAPACK version 3.7.0)
+ FFT Lib : mkl
+ Fundamental constants values: CODATA 2014
+ 
+ Run started: Fri, 28 Apr 2023 20:02:57 +0100
+
+ ******************************* User Parameters *******************************
+iprint                : 2                     # verbosity control (I)
+continuation          : DEFAULT               # continuation filename (S)
+task                  : TransitionStateSearch # type of calculation (S)
+randseed              : 5758057               # seed for random numbers (I)
+optstrategy           : speed                 # optimization strategy (S)
+numfarms              : 5                     # number of task farms (I)
+xcfunctional          : RPBE                  # exchange-correlation functional (S)
+cutoffenergy          : 900.0000000 ev        # maximum energy of planewaves in basis set (P)
+nextrabands           : 112                   # number of extra bands (I)
+elecenergytol         : 0.0000005 eV          # total energy per atom convergence tolerance (P)
+maxscfcycles          : 360                   # maximum SCF cycles (I)
+mixingscheme          : Pulay                 # density mixing scheme (S)
+mixhistorylength      : 32                    # number of densities in mixing scheme (I)
+mixcutoffenergy       : 500.0000000 eV        # density mixing cut off energy (P)
+tssearchmethod        : neb                   # TS search method (S)
+tssearchmaxpathpoints : 5                     # max number of path points in NEB search (I)
+tssearchenergytol     : 0.0000220 eV          # energy convergence tolerance in NEB search (P)
+tssearchnebmethod     : ode12r                # optimization method in NEB search (S)
+tssearchnebmaxiter    : 20                    # max steps in NEB search (I)
+
+ *******************************************************************************
+  
+Reading continuation data from model file neb.check
+ Starting task farming ...
+Initialisation time =     56.48 s
+Calculation time    =  26128.15 s
+Finalisation time   =      5.92 s
+Total time          =  26190.56 s
