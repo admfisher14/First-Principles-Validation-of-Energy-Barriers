@@ -59,4 +59,12 @@ All files output form these functions will be needed to run Lammps neb
 
 This note book will read the output files of a CASTEP NEB and save the barrier(s) into a numpy array for further analysis
 
+#Vibrations.ipynb
+
+This note book calculates prefactors for events 
+
+#Vibrations.zip
+
+This contains all the vibrational frequency data used for prefactors
+
 
